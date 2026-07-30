@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
-html, body, [class*="css"] {
+html, body, [class*="css"], h1, h2, h3, h4, h5, h6, p, span, div, label, a {
     font-family: 'Inter', sans-serif;
+    color: #ffffff !important;
 }
 
 /* Background gradient for the whole app */
 .stApp {
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    color: #f8fafc;
+    color: #ffffff !important;
 }
 
 /* Main header styling */
@@ -25,16 +26,17 @@ html, body, [class*="css"] {
 .main-title {
     font-size: 3.5rem;
     font-weight: 800;
-    background: linear-gradient(to right, #38bdf8, #818cf8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ffffff !important;
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: #ffffff;
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
     font-size: 1.2rem;
     font-weight: 300;
-    color: #cbd5e1;
+    color: #ffffff !important;
     letter-spacing: 1px;
 }
 
@@ -70,7 +72,7 @@ html, body, [class*="css"] {
 }
 
 .image-box h4 {
-    color: #e2e8f0;
+    color: #ffffff !important;
     margin-bottom: 1rem;
     font-weight: 600;
     text-align: center;
@@ -89,7 +91,7 @@ html, body, [class*="css"] {
 }
 
 .result-box h4 {
-    color: #38bdf8;
+    color: #ffffff !important;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -107,17 +109,17 @@ html, body, [class*="css"] {
 
 .pred-label {
     font-weight: 600;
-    color: #f1f5f9;
+    color: #ffffff !important;
 }
 
 .pred-conf {
-    color: #a5b4fc;
+    color: #ffffff !important;
     font-size: 0.9rem;
 }
 
 /* Customize file uploader text */
 .css-1vkfswe, .css-1y4p8pa {
-    color: #cbd5e1 !important;
+    color: #ffffff !important;
 }
 
 /* Footer */
@@ -126,6 +128,6 @@ html, body, [class*="css"] {
     padding: 2rem 0;
     margin-top: 3rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
-    color: #64748b;
+    color: #ffffff !important;
     font-size: 0.85rem;
 }

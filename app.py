@@ -94,7 +94,7 @@ if image_to_process is not None:
                     f"""
                     <div class="prediction-item" style="text-align: center; display: block; padding: 2rem;">
                         <h2 style="color: white; margin-bottom: 0.5rem;">{class_name}</h2>
-                        <h4 style="color: #a5b4fc;">Confidence: {confidence:.2%}</h4>
+                        <h4 style="color: white;">Confidence: {confidence:.2%}</h4>
                     </div>
                     """,
                     unsafe_allow_html=True
