@@ -4,7 +4,10 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1B1F3B,100:0D1117&height=260&section=header&text=Shreya%20Deshmukh&fontSize=54&fontColor=00F0FF&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20•%20Machine%20Learning%20Developer%20•%20Computer%20Vision%20Enthusiast&descAlignY=56&descColor=8892B0&descSize=17"/>
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
+   <img alt="Logo for Shreyadeshmukh1030" src="art/header-light.png" width="100%">
+</picture>
 
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2600&pause=900&color=00F0FF&background=0D111700&center=true&vCenter=true&width=780&lines=Building+AI+that+solves+real-world+problems;Computer+Vision+%2B+Deep+Learning+%2B+GenAI;FastAPI+%7C+PyTorch+%7C+TensorFlow+%7C+YOLOv8;Currently+exploring+RAG+%2B+Agentic+AI+%F0%9F%9A%80"/>
@@ -339,13 +342,35 @@ Published at a UGC Conference — focused on smart agriculture & modern farming 
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## `07` &nbsp; Contribution Snake
+## `07` &nbsp; Recent Activity
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Shreyadeshmukh1030/Shreyadeshmukh1030/output/github-contribution-grid-snake-dark.svg"/>
-</div>
+<!--START_SECTION:activity-->
+<!-- This section auto-fills with your last 5 GitHub events (commits, PRs, issues) once the workflow below runs. -->
+<!--END_SECTION:activity-->
 
-> ⚙️ **To activate:** add the [platane/snk](https://github.com/Platane/snk) GitHub Action to your `Shreyadeshmukh1030/Shreyadeshmukh1030` repo — it auto-generates this dark-mode animated SVG on a schedule.
+> ⚙️ **To activate:** create `.github/workflows/activity.yml` in your `Shreyadeshmukh1030/Shreyadeshmukh1030` repo with the contents below. It uses the built-in `GITHUB_TOKEN` — no extra secrets needed — and updates this section automatically every time you push.
+
+```yaml
+name: Update README Activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
@@ -362,6 +387,12 @@ Published at a UGC Conference — focused on smart agriculture & modern farming 
 <!-- ============================================================ -->
 <!--                          FOOTER                               -->
 <!-- ============================================================ -->
+
+<div align="center">
+
+<img src="art/social-media-dark.png" width="100%"/>
+
+</div>
 
 <div align="center">
 
